@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Digital-7";
+  src: url("/css/digital-7.ttf") format("truetype");
+}
+
+body {
+  background-color: #000000;
+}
+
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  font-size: 135px;
+}
+.all {
+  font-family: "Digital-7", monospace;
+  color: #00bfff;
+  text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+
+  width: fit-content;
+  padding: 37px 135px;
+  box-shadow: -1px -1px 135px 10px rgba(255, 255, 255, 0.85);
+  position: relative;
+}
+.milisecond {
+  position: absolute;
+  top: 26%;
+  right: 150px;
+  color: #ff69b4;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+}
+
+.date {
+  padding: 0 7px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.day , .month , .date, .year {
+color: #FF6600;
+text-shadow: 0 0 5px #FF6600, 0 0 15px #FF6600;
+}
